@@ -1,5 +1,7 @@
 # AdventureWorks Data Analysis Project
 
+# AdventureWorks Data Analysis Project
+
 This project focuses on performing **data analysis** on the AdventureWorks dataset using **SQL** and **Excel**.
 
 ---
@@ -40,8 +42,8 @@ The dashboard provides a clear visual summary of key metrics and business perfor
 ## 🖼️ Dashboard Preview
 Below are screenshots of the Excel dashboard:
 
-![Dashboard 1](images/dashboard.PNG)
-![Dashboard 2](images/dashboard1.PNG)
+![Dashboard 1](dashboard.jpg)
+![Dashboard 2](dashboard1.jpg)
 
 ---
 
@@ -57,10 +59,4 @@ Below are screenshots of the Excel dashboard:
 - **Microsoft Excel** — for dashboard creation and visualization.
 
 ---
----
-
-## 💬 Author
-**Botayla Amin**  
-Data Analyst | Data Scientist
-
-📧 botaylaamin@gmail.com  
+*Created by [Arwa El-olimy]* 
