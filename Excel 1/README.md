@@ -4,7 +4,8 @@
 This project involves analyzing a comprehensive sales dataset for a Global Superstore. The goal was to transform raw sales records into an interactive Excel Dashboard that helps stakeholders track **Total Sales**, **Profit**, and **Shipping Costs** across different regions and segments.
 
 ## 📊 Dashboard Preview
-![Dashboard](dashboard.png)
+![Dashboard](Dashboard.png)
+![Dashboard](Dashboard1.png)
 
 ## 🛠 Tools & Techniques Used
 - **Microsoft Excel:** The core tool for this project.

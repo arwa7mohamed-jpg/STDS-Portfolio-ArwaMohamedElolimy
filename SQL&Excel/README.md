@@ -1,7 +1,5 @@
 # AdventureWorks Data Analysis Project
 
-# AdventureWorks Data Analysis Project
-
 This project focuses on performing **data analysis** on the AdventureWorks dataset using **SQL** and **Excel**.
 
 ---
@@ -42,8 +40,8 @@ The dashboard provides a clear visual summary of key metrics and business perfor
 ## 🖼️ Dashboard Preview
 Below are screenshots of the Excel dashboard:
 
-![Dashboard 1](dashboard.jpg)
-![Dashboard 2](dashboard1.jpg)
+![Dashboard 1](Images/dashboard.jpg)
+![Dashboard 2](Images/dashboard1.jpg)
 
 ---
 
