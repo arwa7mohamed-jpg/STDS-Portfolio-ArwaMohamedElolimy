@@ -1,7 +1,5 @@
 # AdventureWorks Data Analysis Project
 
-# AdventureWorks Data Analysis Project
-
 This project focuses on performing **data analysis** on the AdventureWorks dataset using **SQL** and **Excel**.
 
 ---
