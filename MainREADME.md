@@ -44,4 +44,4 @@ Contains all weekly assignments and practical tasks. Each task folder includes:
 
 ---
 
-*This portfolio is submitted in partial fulfillment of the STDS course requirements.*
+*This portfolio is submitted in partial fulfillment of the Selected Topics for Data science course requirements.*
