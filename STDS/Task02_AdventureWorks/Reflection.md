@@ -1,60 +1,15 @@
-# AdventureWorks Data Analysis Project
+# 💭 Reflection - Adventure Works Project
 
-This project focuses on performing **data analysis** on the AdventureWorks dataset using **SQL** and **Excel**.
+## 💡 What I Learned
+- **Advanced SQL Techniques:** I learned how to use **Dynamic SQL** and `sp_executesql` to loop through columns and check for NULLs automatically, instead of checking each column manually.
+- **Data Integrity:** Understanding the importance of Foreign Keys when joining tables (SalesPerson, Region, Targets) to avoid data loss.
+- **KPI Calculation:** How to calculate complex metrics like "Profit Margin" within Pivot Tables using Calculated Fields.
 
----
+## 🚧 What Was Challenging
+- **Handling Nulls & Duplicates:** Writing the SQL logic to identify duplicates without deleting important records was tricky.
+- **Data Consistency:** Dealing with inconsistent categorical data (e.g., standardizing color names) before moving the data to Excel.
+- **Model Relationships:** Ensuring the "Sales" table correctly mapped to "Resellers" and "Regions" to get accurate summaries in the Dashboard.
 
-## 📊 Project Overview
-The goal of this project was to clean, analyze, and visualize business data to gain insights into sales performance, profitability, and product trends.
-
----
-
-## ⚙️ Data Preprocessing (SQL)
-Data preprocessing was done using **SQL Server**, where I:
-- Checked for **null values** and replaced them appropriately.  
-- Handled **duplicates** using SQL scripts.  
-- Cleaned and standardized categorical values (e.g., replacing `NA` with `UNKNOWN`).  
-- Verified data consistency across multiple tables (Products, Regions, Resellers, Salespersons, and Targets) using Dynamic SQL.
-
----
-
-## 📈 Dashboard (Excel)
-After cleaning the data, I built an interactive **Excel dashboard** that includes:
-- **modeling** to connect related tables.
-- **Measures** to calculate Profits and Target Achievement Percentage
-- **Cards** showing:
-  - Total Sales  
-  - Total Profit  
-  - Total Quantity Sold  
-  - Average Sales  
-- **Charts** visualizing:
-  - Sales vs. Cost over time  
-  - Comparison between Categories and Subcategories  
-  - Other performance-related insights
-  - And More
-
-The dashboard provides a clear visual summary of key metrics and business performance.
-
----
-
-## 🖼️ Dashboard Preview
-Below are screenshots of the Excel dashboard:
-
-![Dashboard 1](Images/dashboard.jpg)
-![Dashboard 2](Images/dashboard1.jpg)
-
----
-
-## 🧠 Key Insights
-- Identified high-performing categories and products.  
-- Discovered seasonal patterns in sales and cost.  
-- Analyzed profitability trends and average sales over time.
-
----
-
-## 🛠️ Tools Used
-- **SQL Server** — for data preprocessing and cleaning.  
-- **Microsoft Excel** — for dashboard creation and visualization.
-
----
-*Created by [Arwa El-olimy]* 
+## 📈 Improvements
+- **Automated Cleaning:** Unlike previous tasks where I cleaned data manually in Excel, I used **SQL Scripts** this time. This makes the process repeatable and much faster for larger datasets.
+- **Dashboard Layout:** I improved the visual hierarchy of my Excel Dashboard, placing key numbers (KPIs) at the top for immediate impact.
